@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --bg: #14110f;
+  --surface: #1f1a17;
+  --surface-2: #2a2320;
+  --gold: #e0a458;
+  --gold-soft: #f0c987;
+  --text: #f3ede6;
+  --text-muted: #9a8f84;
+  --border: #3a312b;
+  --danger: #e05d5d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--bg);
+  background-image: radial-gradient(circle at 50% 0%, #2a201a 0%, var(--bg) 60%);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+#app {
+  max-width: 680px;
+  margin: 0 auto;
+}
